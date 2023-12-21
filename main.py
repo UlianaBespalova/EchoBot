@@ -1,6 +1,7 @@
-from config import BOT_TOKEN
+# from config import BOT_TOKEN
 from telebot import TeleBot
 
+BOT_TOKEN = input("Введите токен для своего бота: ")
 bot = TeleBot(BOT_TOKEN)
 
 
